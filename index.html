@@ -14,87 +14,69 @@
 		<img src="./img/logo.svg" alt="Новости культуры" draggable="false">
 		<nav>
 			<ul>
-				<a href="#">
-					<li>НОВОСТИ</li>
-				</a>
-				<a href="#">
-					<li>ОБЗОРЫ</li>
-				</a>
-				<a href="#">
-					<li>МУЗЫКА</li>
-				</a>
-				<a href="#">
-					<li>АРХИТЕКТУРА</li>
-				</a>
-				<a href="#">
-					<li>КИНО</li>
-				</a>
-				<a href="#">
-					<li>ТЕАТР</li>
-				</a>
-				<a href="#">
-					<li>ЛИТЕРАТУРА</li>
-				</a>
-				<a href="#">
-					<li>РЕЛИГИЯ</li>
-				</a>
-				<a href="#">
-					<li>ЖИВОПИСЬ</li>
-				</a>
+				<li><a href="#">НОВОСТИ</a></li>
+				<li><a href="#">ОБЗОРЫ</a></li>
+				<li><a href="#">МУЗЫКА</a></li>
+				<li><a href="#">АРХИТЕКТУРА</a></li>
+				<li><a href="#">КИНО</a></li>
+				<li><a href="#">ТЕАТР</a></li>
+				<li><a href="#">ЛИТЕРАТУРА</a></li>
+				<li><a href="#">РЕЛИГИЯ</a></li>
+				<li><a href="#">ЖИВОПИСЬ</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
-		<a href="#">
-			<section class="mainImage">
-				<img src="./img/underwater-hotel.jpg" alt="underwater-hotel" class="bgImg" draggable="false">
-				<section>
-					<h1 class="title">ПОДВОДНЫЙ ОТЕЛЬ</h1>
-					<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла
-						бла
-						бла бла бла бла</h6>
-				</section>
-
+		<div class="mainImage">
+			<img src="./img/underwater-hotel.jpg" alt="underwater-hotel" class="bgImg" draggable="false">
+			<section class="mainImageInner">
+				<img class="orange-icon" src="./img/orange-icon.png" alt="orange-icon" draggable="false">
+				<h1 class="title" headingoffset="1">ПОДВОДНЫЙ ОТЕЛЬ</h1>
+				<h2 class="descrition">Как известно. Дубай город контрастов. Самые революционные
+					и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти
+					и за счет нефти
+				</h2>
 			</section>
-		</a>
+		</div>
 
 		<h3>ОБЗОРЫ</h3>
-		<section class="reviews">
+		<div class="reviews">
 			<article>
 				<a href="#">
 					<img src="./img/monparnasse.jpg" alt="monparnasse" draggable="false">
 					<h2>"Шальные годы" Моннариса</h2>
-					<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла
-						бла
-						бла бла бла бла</h6>
+					<h3 class="descrition">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября
+						проходит выставка «Шальные годы Монпарнаса»
+						Анатомия за 30 секунд</h3>
 				</a>
 			</article>
 			<article>
 				<a href="#">
 					<img src="./img/clay-in-the-hands.jpg" alt="clay-in-the-hands" draggable="false">
 					<h2>Анатомия за 30 секунд</h2>
-					<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла
-						бла
-						бла бла бла бла</h6>
+					<h3 class="descrition">Сейчас, когда мир открыт нараспашку для человека
+						и его познавательных изысканий, интерес
+						к научно-популярной литературе заметно вырос</h3>
 				</a>
 			</article>
 			<article>
 				<a href="#">
 					<img src="./img/spherical-eccentrics.jpg" alt="spherical-eccentrics" draggable="false">
 					<h2>Сферические чудики</h2>
-					<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла
-						бла
-						бла бла бла бла</h6>
+					<h3 class="descrition">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре
+						«Сфера» на премьере спектакля «Чудаки и зануды»</h3>
 				</a>
 			</article>
-		</section>
+		</div>
 		<h3 class="featuresText">АБОНЕМЕНТЫ В ТЕАТР</h3>
 		<h2>Скидка 50% на весь сезон 2020</h2>
-		<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла</h6>
+		<h3 class="descrition">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей
+		</h3>
 		<h2>Места у сцены</h2>
-		<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла</h6>
+		<h3 class="descrition">Только для обладателей абонементов будет возможность сесть поближе к сцене</h3>
 		<h2>Автограф-сессия актёров</h2>
-		<h6 class="descrition">Бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла бла</h6>
+		<h3 class="descrition">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф
+		</h3>
 		<button class="bt_look">СМОТРЕТЬ →</button>
 	</main>
 	<footer>
@@ -114,9 +96,9 @@
 		</nav>
 		<address class="socialButtons">
 			<ul>
-				<li><a href="#"><img src="./img/instagram_icon.svg" alt="instagram_icon"></a></li>
-				<li><a href="#"><img src="./img/facebook_icon.svg" alt="facebook_icon"></a></li>
-				<li><a href="#"><img src="./img/twitter_icon.svg" alt="twitter_icon"></a></li>
+				<li><img src="./img/instagram_icon.svg" alt="instagram_icon"></li>
+				<li><img src="./img/facebook_icon.svg" alt="facebook_icon"></li>
+				<li><img src="./img/twitter_icon.svg" alt="twitter_icon"></li>
 			</ul>
 		</address>
 	</footer>
